@@ -1,0 +1,40 @@
+LIGHTING!!
+
+        // Add better lighting
+        const ambientLight = new THREE.AmbientLight(0xffffff, 10);
+        scene.add(ambientLight);
+
+        // Directional light from the front
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 10);
+        directionalLight.position.set(1, 1, 1);
+        scene.add(directionalLight);
+
+        // Point light from the right
+        const pointLight = new THREE.PointLight(0xffffff, 1.5, 100);
+        pointLight.position.set(10, 10, 10);
+        scene.add(pointLight);
+
+        // Point light from the bottom
+        const bottomLight = new THREE.PointLight(0xffffff, 1.5, 100);
+        bottomLight.position.set(0, -10, 0); // Positioned below the model
+        scene.add(bottomLight);
+
+        // Point light from the left
+        const leftLight = new THREE.PointLight(0xffffff, 1.5, 100);
+        leftLight.position.set(-10, 0, 0); // Positioned to the left of the model
+        scene.add(leftLight);
+
+
+
+
+This is looking really good
+Lets upload this draft and re-assess the following goals
+    Adjust canvas height
+    canvas opacity, would be cool if it was invisible...
+    change initial direction of model on page load
+  Photos on bottom
+  background does not stretch when horizontal on mobile
+
+
+https://huggingface.co/spaces/trellis-community/TRELLIS
+
