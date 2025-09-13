@@ -2,4 +2,4 @@ Wouldn't it be cool if potential clients had a 3d model of the plane they were i
   <br />
 I thought so... so this is that :)
 <br />
-<a href="https://jmoscato.com/impress_comlux/">jmoscato.com/impress_comlux</a>
+<a href="https://jmoscato.com/impress_comlux/" target="_blank">jmoscato.com/impress_comlux</a>
